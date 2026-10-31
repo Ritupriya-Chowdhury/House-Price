@@ -35,6 +35,8 @@ Data cleaning and exploratory data analysis (EDA) of a house price dataset, done
    - Distributions of bedrooms, rooms and house age
    - Income vs population and income vs price
    - Price by rooms and bedrooms, and rooms vs bedrooms heatmap
+   - Correlation heatmap
+3. **Outlier Detection**
 
 ## Key Findings
 

@@ -43,4 +43,7 @@
    - Median price rises steadily with the number of rooms, from about 1.0 million at 4 rooms to about 2.0 million at 10 rooms.
    - The number of bedrooms has only a weak effect, because the price distributions overlap heavily.
 10. **Rooms vs bedrooms** (crosstab heatmap): The two are positively but loosely related. 5 and 6 bedrooms only occur in houses with 7 or more rooms, but each room count includes several bedroom counts.
-11. **Outlier check (started)**: Numeric columns were selected (`select_dtypes`) to find outliers in the next step.
+11. **Correlation heatmap:** `Avg. Area Income` has the strongest correlation with Price (0.64), followed by `House Age` (0.43), `Area Population` (0.41) and `Number of Rooms` (0.33). `Number of Bedrooms` is the weakest (0.18). The features are almost uncorrelated with each other (near 0), except `Number of Rooms` and `Number of Bedrooms` (0.49), which is below the 0.7 warning level, so multicollinearity is not a serious problem.
+
+### 1.4 Outlier Check
+
